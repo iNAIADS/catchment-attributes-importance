@@ -8,7 +8,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-For catchment cluster interpretation see file SI_2.pdf in https://data.ess-dive.lbl.gov/view/doi:10.15485/1987555
+## Instructions
 
 Copy the content of the Google Drive folder: https://drive.google.com/drive/folders/11yQuQLf0QhT1z-i2yAd3fwKWAucSfkFL in the same directory of the git.
 Unzip all the zipped files.
@@ -25,3 +25,6 @@ E.g. `wrapper("GAGES", "mean_q", filtering_dict=None, n_iter_randomSearch=100, n
 Other examples are present in the code and are self explanatory.
 Do not modify the values of the other parameters of the wrapper function since this will trigger new calculations
 
+## Additional Information
+
+For catchment cluster interpretation see file SI_2.pdf in https://data.ess-dive.lbl.gov/view/doi:10.15485/1987555
