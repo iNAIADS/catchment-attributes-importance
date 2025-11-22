@@ -14,7 +14,7 @@ Copy the content of the Google Drive folder: https://drive.google.com/drive/fold
 Unzip all the zipped files.
 These contains the information already computed about RFE, hyperparameter optimization, ...
 Recomputing all these information for the entire GAGES-II dataset will take more than one day.
-Recomputation is triggered by the lack of the correspondent files (the ones in the zipped files), otherwise the info in the files is used and the final figure will be generated.
+Recomputation is triggered by the lack of the correspondent files (the ones in the zipped files), otherwise the info in the files is used and the final figures will be generated.
 
 In order to produce the final figures:
 1) open the `clean_version.ipynb`
