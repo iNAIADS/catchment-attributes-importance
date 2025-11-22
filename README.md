@@ -8,9 +8,17 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
 ## Instructions
 
-Copy the content of the Google Drive folder: https://drive.google.com/drive/folders/11yQuQLf0QhT1z-i2yAd3fwKWAucSfkFL in the same directory of the git.
+### Visualize results only
+
+Copy the png*.zip files in the Google Drive folder: https://drive.google.com/drive/folders/11yQuQLf0QhT1z-i2yAd3fwKWAucSfkFL in the same directory of the git.
+The png*.zip files contain the final figures and are very heavy (about 6GB combined). If willing to only inspect results, these figures contain all the visual information needed.
+The name of the files reflect the method, data subset, and hydrological index used.
+
+### Generate the result figures
+Copy the csv*.zip  and npy*.zip files in the Google Drive folder: https://drive.google.com/drive/folders/11yQuQLf0QhT1z-i2yAd3fwKWAucSfkFL in the same directory of the git.
 Unzip all the zipped files.
 These contains the information already computed about RFE, hyperparameter optimization, ...
 Recomputing all these information for the entire GAGES-II dataset will take more than one day.
