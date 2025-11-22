@@ -1,4 +1,4 @@
-# Catchment atributes importance
+# Catchment attributes importance
 
 ## Installation
 
